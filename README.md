@@ -20,12 +20,19 @@ Visual components and Python
 
 
 ## Program
+```
 arr_time=float(input("Enter the mean inter arrival time of objects from Feeder (in secs): "))
+
 ser_time1=float(input("Enter the mean  inter service time of Lathe Machine 1 (in secs) :  "))
+
 ser_time2=float(input("Enter the mean  inter service time of Lathe Machine 2 (in secs) :  "))
+
 ser_time3=float(input("Enter the mean  inter service time of Lathe Machine 3 (in secs) :  "))
+
 Robot_time=float(input("Enter the Additional time taken for the Robot (in secs) :  "))
+
 lam=1/arr_time
+
 mu1=1/(ser_time1+Robot_time)
 mu2=1/(ser_time2+Robot_time)
 mu3=1/(ser_time3+Robot_time)
@@ -57,7 +64,7 @@ if (lam <  mu1) and (lam <  mu2) and (lam <  mu3):
 else:
     print("Warning! Objects Over flow will happen in the conveyor")
 print("----------------------------------------------------------------------")
-
+```
 ## Output
 
 ## Result
